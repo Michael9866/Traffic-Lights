@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52570A892B0A4434000485CD /* trafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52570A882B0A4434000485CD /* trafficLight.swift */; };
 		52589EA02B064DF2005BBDE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52589E9F2B064DF2005BBDE4 /* AppDelegate.swift */; };
 		52589EA22B064DF2005BBDE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52589EA12B064DF2005BBDE4 /* SceneDelegate.swift */; };
 		52589EA42B064DF2005BBDE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52589EA32B064DF2005BBDE4 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52570A882B0A4434000485CD /* trafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trafficLight.swift; sourceTree = "<group>"; };
 		52589E9C2B064DF2005BBDE4 /* Traffic Light 2.02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Traffic Light 2.02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52589E9F2B064DF2005BBDE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52589EA12B064DF2005BBDE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				52589E9F2B064DF2005BBDE4 /* AppDelegate.swift */,
+				52570A882B0A4434000485CD /* trafficLight.swift */,
 				52589EA12B064DF2005BBDE4 /* SceneDelegate.swift */,
 				52589EA32B064DF2005BBDE4 /* ViewController.swift */,
 				52589EA52B064DF2005BBDE4 /* Main.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52589EA42B064DF2005BBDE4 /* ViewController.swift in Sources */,
+				52570A892B0A4434000485CD /* trafficLight.swift in Sources */,
 				52589EA02B064DF2005BBDE4 /* AppDelegate.swift in Sources */,
 				52589EA22B064DF2005BBDE4 /* SceneDelegate.swift in Sources */,
 			);
@@ -294,6 +298,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +326,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
